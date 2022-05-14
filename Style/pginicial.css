@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+#título
+{font-size:40px; 
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+#nome{
+
+    color: white;
+    text-align: center;
+    font:30px'Times New Roman', Times, serif;
+}
+#nome:hover{
+
+    color: white;
+    text-shadow: 1px 1px 20px #388697;
+    text-align: center;
+
+}
+body{
+background-image: repeating-linear-gradient(90deg, #102e4a,  black);
+ color: rgb(255, 255, 255); 
+}
+
+#título{
+font-size:50px;
+font-style: italic;
+}
+.textoBotão{
+font:20px Arial, Helvetica, sans-serif;
+}
+.textoBotão:hover{
+    font-size:20px;
+    background-color: rgba(0, 0, 0, 0.212);
+    border: 5px solid black;
+    text-shadow: 1px 1px 20px #388697;
+}
+
+#eu{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#foto{
+    background-color: white;
+    padding: 10px 10px ;
+    border-radius: 100px;
+    border: solid 10px black;
+    box-shadow: 1px 1px 10px #388697;
+}
+#foto:hover{
+    background-color: #388697;
+    padding: 10px 10px ;
+    border-radius: 100px;
+    border: solid 10px black;
+    box-shadow: 1px 1px 10px #388697;
+}
+
+
+
+
